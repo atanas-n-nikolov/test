@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #fefefe;
+  color: #333;
+}
+
+.invite-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+.invite-card {
+  max-width: 500px;
+  width: 100%;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.invite-image {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+}
+
+.invite-title {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #2c3e50;
+}
+
+.invite-text {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.invite-details {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Mobile Responsive */
+@media (max-width: 600px) {
+  .invite-card {
+    padding: 1rem;
+  }
+
+  .invite-title {
+    font-size: 1.5rem;
+  }
+
+  .invite-text,
+  .invite-details {
+    font-size: 0.95rem;
+  }
+}
