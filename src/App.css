@@ -8,6 +8,7 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: #fefefe;
   color: #333;
+  overflow-x: hidden;
 }
 
 .invite-container {
@@ -32,6 +33,8 @@ body {
 .invite-image {
   width: 100%;
   height: auto;
+  max-height: 400px;
+  object-fit: cover;
   border-radius: 12px;
   margin-bottom: 1rem;
 }
@@ -76,5 +79,9 @@ body {
   .invite-text,
   .invite-details {
     font-size: 0.95rem;
+  }
+
+  .invite-image {
+    max-height: 300px;
   }
 }
