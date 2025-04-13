@@ -55,7 +55,7 @@ function App() {
           >
             📍 Location: 40 Bratya Buxton Boulevard, Sofia, Bulgaria <br /></a>
           📅 Date: June 07, 2025 <br />
-          🕗 Time: 12:00
+          🕗 Time: 17:00
         </p>
       </div>
     </div>
